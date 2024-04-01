@@ -1,0 +1,36 @@
+header{
+    width: 100%;
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: 50px;
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    row-gap: 2.5rem;
+}
+
+li{
+    margin: 10px;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: "American Typewriter";
+}
+
+.container{
+    margin-right: 15px;
+    margin-left: auto;
+}
