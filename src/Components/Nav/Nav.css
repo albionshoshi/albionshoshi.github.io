@@ -3,15 +3,15 @@ header{
     background-color: black;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: relative;
     height: 50px;
     width: 100%;
+    background: linear-gradient(#e66465, #9198e5);
 }
-
 ul{
     list-style-type: none;
     display: flex;
