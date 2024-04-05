@@ -1,4 +1,4 @@
-header{
+header {
     width: 100%;
     background-color: black;
 }
@@ -8,29 +8,37 @@ nav {
     align-items: center;
     justify-content: space-between;
     position: relative;
-    height: 50px;
+    height: 60px;
     width: 100%;
-    background: linear-gradient(#e66465, #9198e5);
+    background: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    padding: 0 20px;
 }
-ul{
+
+ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    row-gap: 2.5rem;
+    gap: 2.5rem;
 }
 
-li{
-    margin: 10px;
+li {
+    margin: 0 10px;
 }
 
-.link{
+.link {
     text-decoration: none;
     color: white;
-    font-size: 20px;
-    font-family: "American Typewriter";
+    font-size: 18px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    transition: color 0.3s ease;
 }
 
-.container{
+.link:hover, .link:focus {
+    color: #a8eb12;
+}
+
+.container {
     margin-right: 15px;
     margin-left: auto;
 }

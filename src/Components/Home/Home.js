@@ -1,6 +1,7 @@
 import "./Home.css"
 function Home() {
     return (
+        <body className="homeBod">
         <div>
             <h1 className="tit">Home</h1>
             <div className="description">
@@ -13,6 +14,7 @@ function Home() {
                 </p>
             </div>
         </div>
+        </body>
     );
 }
 

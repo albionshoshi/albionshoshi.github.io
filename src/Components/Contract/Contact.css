@@ -1,6 +1,47 @@
 .LinkedIn{
-    width: 215px;
-    height: 138px;
-    background-color: white;
-    margin-right: 30px;
+    width: 200px;
+    height: 150px;
+    border-radius: 30px;
+}
+
+.GHub{
+    width: 200px;
+    height: 190px;
+    border-radius: 30px;
+}
+
+.contactTitle {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.LinkedIn, .GHub {
+    border: 2px solid transparent;
+    padding: 5px;
+    border-radius: 35px;
+}
+
+.LinkedIn:hover, .GHub:hover {
+    border-color: #333;
+}
+
+.GHub:hover {
+    border-color: #333;
+}
+
+.contBod{
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Light grey background */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
