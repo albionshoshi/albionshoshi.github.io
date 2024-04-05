@@ -2,7 +2,7 @@ import React from 'react';
 import { Navigate, BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './Components/Home/Home.js';
 import About from './Components/About/About';
-import Contact from './Components/Contract/Contact';
+import Contact from './Components/Contact/Contact';
 import Layout from './Components/Layout/Layout';
 import Resume from "./Components/Resume/Resume";
 
