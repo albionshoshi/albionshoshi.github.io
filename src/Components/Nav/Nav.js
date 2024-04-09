@@ -19,8 +19,8 @@ const Nav = () =>{
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink className= "link" to= "/about">
-                                About
+                            <NavLink className= "link" to= "/projects">
+                                Projects
                             </NavLink>
                         </li>
                         <li>
