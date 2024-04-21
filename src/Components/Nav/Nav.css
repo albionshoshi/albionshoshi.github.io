@@ -10,7 +10,6 @@ nav {
     position: relative;
     height: 60px;
     width: 100%;
-    background: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
@@ -34,7 +33,7 @@ li {
 }
 
 .link:hover, .link:focus {
-    color: #a8eb12;
+    color: #ab94f6;
 }
 
 .container {
