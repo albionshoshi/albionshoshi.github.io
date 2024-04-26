@@ -15,7 +15,7 @@ function Home() {
             </div>
 
             <p className="home_tools">
-                Programming languages comfortable with using.
+                Programming languages I'm comfortable with using.
             </p>
             <img className="tools" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" />
             <img className="tools" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" />
