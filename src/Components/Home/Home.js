@@ -9,6 +9,11 @@ function Home() {
                     A Junior attending Penn State University majoring in Data Science in the College of Engineering
                 </p>
             </p>
+
+            <div className="profile-container">
+                <img className="profile-picture" src="/Albi.jpeg" alt="Albion's Profile" />
+            </div>
+
             <div className="linedUp">
                 <div className="home_about_blur">
                     <p className="home_aboutMe">
