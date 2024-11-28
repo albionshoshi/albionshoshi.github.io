@@ -5,6 +5,7 @@ import Projects from './Components/Projects/Projects';
 import Contact from './Components/Contact/Contact';
 import Layout from './Components/Layout/Layout';
 import Resume from "./Components/Resume/Resume";
+import SkyView from "./Components/SkyView/SkyView";
 
 function App() {
     return (
@@ -17,7 +18,7 @@ function App() {
                         <Route path="/projects" element={<Projects />} />
                         <Route path="/contact" element={<Contact />} />
                         <Route path="/resume" element={<Resume />} />
-
+                        <Route path="/SkyView" element={<SkyView />} />
                     </Route>
                 </Routes>
         	</BrowserRouter>

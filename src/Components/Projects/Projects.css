@@ -1,0 +1,22 @@
+.projectHeader{
+    font-family: Quicksand;
+    font-size: 50px;
+    margin-left: 50px;
+}
+
+.projectCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    font-family: Quicksand;
+    font-size: 20px;
+}
+
+.header44{
+    font-family: Quicksand;
+    font-size: 50px;
+}
