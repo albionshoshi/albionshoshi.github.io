@@ -18,7 +18,6 @@ function App() {
                         <Route path="/projects" element={<Projects />} />
                         <Route path="/contact" element={<Contact />} />
                         <Route path="/resume" element={<Resume />} />
-                        <Route path="/SkyView" element={<SkyView />} />
                     </Route>
                 </Routes>
         	</BrowserRouter>
