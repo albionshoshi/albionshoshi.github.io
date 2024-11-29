@@ -23,7 +23,7 @@
 
 .separator {
     width: 85%; /* Adjust width to control the length of the line */
-    height: 2px;
+    height: 1px;
     background-color: #ccc; /* Change color as needed */
     margin: 60px auto; /* Centers the line horizontally */
     border-radius: 2px; /* Adds rounded ends to the line */
