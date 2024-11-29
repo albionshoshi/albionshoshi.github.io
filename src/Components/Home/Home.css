@@ -24,7 +24,7 @@ body, html {
     line-height: 1.6;
     word-spacing: 2px;
     margin: 0 20px;
-    margin-top: 500px;
+    margin-top: 200px;
 }
 
 .home_about{
@@ -36,13 +36,11 @@ body, html {
 .home_aboutMe{
     font-family: "Quicksand";
     font-size: 25px;
+    margin-bottom: 600px;
 }
 
 .home_about_blur{
-    /*backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);*/
     border-radius: 20px;
-
     margin-left: auto;
     margin-right: 70px;
     width: 600px;
@@ -80,11 +78,11 @@ body, html {
 .profile-container {
     text-align: center;
     margin-top: 20px;
+    margin-right: 650px;
 }
 
 .profile-picture {
     width: 250px;
     height: auto;
     border: 3px solid white;
-    margin: auto
 }

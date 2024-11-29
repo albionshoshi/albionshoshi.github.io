@@ -9,7 +9,7 @@
     flex-direction: row;
     justify-content: space-between;
     width: 80%;
-    margin: 20px auto;
+    margin: 40px auto;
     padding: 20px;
     border-radius: 8px;
     font-family: Quicksand;
@@ -19,4 +19,12 @@
 .header44{
     font-family: Quicksand;
     font-size: 50px;
+}
+
+.separator {
+    width: 85%; /* Adjust width to control the length of the line */
+    height: 2px;
+    background-color: #ccc; /* Change color as needed */
+    margin: 60px auto; /* Centers the line horizontally */
+    border-radius: 2px; /* Adds rounded ends to the line */
 }
