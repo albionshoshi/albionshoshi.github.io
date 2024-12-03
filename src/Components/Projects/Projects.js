@@ -16,7 +16,7 @@ const ProjectCard = ({description, header4, media}) => {
 function Projects() {
     return (
         <div>
-            <h1 className="projectHeader">Some of my notable projects</h1>
+            <p className="projectHeader">Some of my notable projects</p>
 
             <ProjectCard media={
                 <ReactPlayer url="Neurosis.webm" controls={false} playing={true} loop={true} muted={true} width="100%" height="100%"/>
@@ -36,7 +36,10 @@ function Projects() {
 
             <hr className="separator" />
 
-            <ProjectCard header4= "Lebron Vs. Jordan Statistcal Summary" description={"A dive deep and settling the goat debate by comparing head to head stats between Michael Jordan and LeBron James"}/>
+            <ProjectCard media = {
+                <object data = "/final.pdf" type = "application/pdf" width = "100%" height = "500px">
+                </object>
+                } header4= "Lebron Vs. Jordan Statistcal Summary" description={"A dive deep and settling the goat debate by comparing head to head stats between Michael Jordan and LeBron James"}/>
         </div>
     )
 }
