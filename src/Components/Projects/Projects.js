@@ -20,7 +20,7 @@ function Projects() {
 
             <ProjectCard media={
                 <ReactPlayer url="Neurosis.webm" controls={false} playing={true} loop={true} muted={true} width="100%" height="100%"/>
-            } header4="Neurosis" description="Neurosis, a psychological horror game that takes place in our main characters brain. Our character goes into a journey of discovering who he truly is as he matches up with some of his greatest nightmares"/>
+            } header4="Neurosis" description="Neurosis, a psychological horror game that takes place in our main characters brain. Our character goes into a journey of discovering who he truly is as he matches up with some of his greatest nightmares. Worked with Jeremy Chernin"/>
 
             <hr className="separator" />
 
@@ -37,9 +37,9 @@ function Projects() {
             <hr className="separator" />
 
             <ProjectCard media = {
-                <object data = "/final.pdf" type = "application/pdf" width = "100%" height = "500px">
+                <object data = "/NFLPredictions.pdf" type = "application/pdf" width = "100%" height = "500px">
                 </object>
-                } header4= "Lebron Vs. Jordan Statistcal Summary" description={"A dive deep and settling the goat debate by comparing head to head stats between Michael Jordan and LeBron James"}/>
+                } header4= "Predicting NFL Standings" description={"Trained a multiple linear regression model that predicts winning percentages of all NFL teams. We measured the success of our model from comparing our models results to the actual 2023 seasons results. "}/>
         </div>
     )
 }
