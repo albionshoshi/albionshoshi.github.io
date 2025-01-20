@@ -26,13 +26,13 @@ function Projects() {
 
 
             <ProjectCard media={
-                <ReactPlayer url="ChessVID.mov" controls={false} playing={true} loop={true}/>
+                <ReactPlayer url="ChessVidForWeb.mov" controls={false} playing={true} loop={true}/>
             } header4="Chess AI Agent" description="Created a chess AI with transitional
             functions able to play against 750 plus rated players. During 10 practice runs the agent was able to win 8 and draw 2 matches."/>
 
             <hr className="separator" />
 
-            <ProjectCard header4= "Tic-Tac-Toe AI Agent" description={"Created a Tic-Tac-Toe AI with transitional functions. It plays as optimally as possible given its position on the board"}/>
+            <ProjectCard header4= "Blackjack AI Agent" description={"Created a Blackjack AI agent implemented using Q-Learning. It plays as optimally as possible and achieves a win rate above 50%."}/>
 
             <hr className="separator" />
 
