@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.home_tools {
+    font-family: "Quicksand";
+    font-size: 20px;
+    line-height: 1.6;
+    word-spacing: 2px;
+    margin-left: 100px;
+    margin-top: 400px;
+}
+
+.tools{
+    width: 80px;
+    height: 80px;
+    padding: 50px;
+    margin-left: 20px;
+    margin-right: auto;
+}

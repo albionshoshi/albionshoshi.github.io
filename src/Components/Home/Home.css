@@ -18,15 +18,6 @@ body, html {
     border-radius: 8px;
 }
 
-.home_tools {
-    font-family: "Quicksand";
-    font-size: 20px;
-    line-height: 1.6;
-    word-spacing: 2px;
-    margin-left: 100px;
-    margin-top: 400px;
-}
-
 .home_about{
     font-family: "Quicksand";
     font-size: 50px;
@@ -36,7 +27,7 @@ body, html {
 .home_aboutMe{
     font-family: "Quicksand";
     font-size: 25px;
-    margin-bottom: 600px;
+    margin-bottom: 500px;
 }
 
 .home_about_blur{
@@ -50,14 +41,6 @@ body, html {
 .linedUp{
     display: flex;
     flex-direction: row-reverse;
-}
-
-.tools{
-    width: 80px;
-    height: 80px;
-    padding: 50px;
-    margin-left: 20px;
-    margin-right: auto;
 }
 
 .about_school{
@@ -79,10 +62,13 @@ body, html {
     text-align: center;
     margin-top: 20px;
     margin-right: 650px;
+    border: 200px #ab94f6;
 }
 
 .profile-picture {
-    width: 250px;
+    width: 300px;
     height: auto;
-    border: 3px solid white;
+    margin-top: 150px;
+    margin-right: 200px;
+    border: 100px #ab94f6;
 }

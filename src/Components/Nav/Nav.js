@@ -9,17 +9,22 @@ const Nav = () =>{
                 <div className= "container">
                     <ul>
                         <li>
-                            <NavLink className= "link" to= "/">
+                            <NavLink className="link" to="/">
                                 Home
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink className= "link" to= "/projects">
+                            <NavLink className="link" to="/projects">
                                 Projects
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink className= "link" to= "/resume">
+                            <NavLink className="link" to="/skills">
+                                Skills
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink className="link" to="/resume">
                                 Resume
                             </NavLink>
                         </li>

@@ -6,7 +6,7 @@ function Home() {
             <p className="home_about">
                 Hi, I'm Albion.
                 <p className="home_npm about_school">
-                    A Junior attending Penn State University majoring in Data Science in the College of Engineering
+                    A rising senior attending Penn State University majoring in Data Science in the College of Engineering
                 </p>
             </p>
 
@@ -22,21 +22,6 @@ function Home() {
                         I'm interested in all ways to release my creativity.
                     </p>
                 </div>
-                <div>
-                    <p className="home_tools">
-                        Some of the Programming languages I'm comfortable with using.
-                    </p>
-                    <img className="tools"
-                         src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"/>
-                    <img className="tools"
-                         src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"/>
-                    <img className="tools"
-                         src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg"/>
-                    <img className="tools"
-                         src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/r/r-original.svg"/>
-
-                </div>
-
             </div>
 
 
