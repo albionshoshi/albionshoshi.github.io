@@ -15,21 +15,29 @@ function About() {
                 </p>
 
                 <p className="aboutText">
-                    I focus on creating AI projects because I'm driven by the challenge of [what motivates you].
-                    In [year], I [major achievement or project]. [Describe what you built/accomplished and the
-                    technologies or skills you used].
+                    I focus on creating AI projects because I'm driven by the challenge of automating and optimizing
+                    things I'm interested in. I love working with statistical and mathematical models and thrive working
+                    on projects that directly can improve peoples lives. With a background in Machine Learning and a proven
+                    track record of using storytelling to drive impactful results, I am eager to leverage my skills to
+                    contribute and blend data-driven insights with compelling narratives.
                 </p>
 
                 <p className="aboutText">
-                    In [year], I expanded my work by [next achievement or project]. For this project, I [describe
-                    what you developed - tools, models, features, etc.]. I also built features such as [list key
-                    features or accomplishments].
+                    I have worked on numerous Data Science projects ranging from a face recognition app that delivers you
+                    a custom spotify playlist based off of the detected emotion displayed, to studying advanced analytics
+                    of NBA players and creating a ML pipeline to figure out potential future stars in the league.
+                    I have also done projects where I learned how to work with teams that delivered results by conducting
+                    thorough user research and launching new technical features after receiving user feedback. My experiences
+                    from developing real world AI applications and understanding the evolution of data sets will allow
+                    me to effectively advocate for user-centric product development and safety.
+
                 </p>
 
                 <p className="aboutText">
                     Outside of my work I enjoy doing things outdoors. I am always going on hikes and exploring nature
                     ,especially in places I've never been before. I also always keep myself active and challenged myself
                     this year to start training in Muay Thai.
+
                 </p>
             </div>
         </div>
