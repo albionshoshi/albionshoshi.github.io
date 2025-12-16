@@ -1,30 +1,353 @@
-.projectHeader{
-    font-family: Quicksand;
-    font-size: 50px;
-    margin-left: 50px;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.projectsContainer {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 60px 40px;
+    color: #f2fbf8;
 }
 
-.projectCard{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 80%;
-    margin: 40px auto;
-    padding: 20px;
-    border-radius: 8px;
-    font-family: Quicksand;
+/* Header Section */
+.projectsHeader {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.projectsTitle {
+    font-family: "Quicksand";
+    font-size: 56px;
+    margin: 0 0 20px 0;
+    color: #f2fbf8;
+    font-weight: 700;
+}
+
+.projectsSubtitle {
+    font-family: "Quicksand";
     font-size: 20px;
+    color: rgba(242, 251, 248, 0.8);
+    margin: 0;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
 }
 
-.header44{
-    font-family: Quicksand;
-    font-size: 50px;
+/* Projects List */
+.projectsList {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
 }
 
-.separator {
-    width: 85%; /* Adjust width to control the length of the line */
-    height: 1px;
-    background-color: #ccc; /* Change color as needed */
-    margin: 60px auto; /* Centers the line horizontally */
-    border-radius: 2px; /* Adds rounded ends to the line */
+/* Project Card */
+.projectCard {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding: 40px;
+    border-radius: 20px;
+    background: rgba(171, 148, 246, 0.08);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(171, 148, 246, 0.2);
+    transition: all 0.4s ease;
+}
+
+.projectCard:hover {
+    transform: translateY(-8px);
+    background: rgba(171, 148, 246, 0.12);
+    border-color: rgba(171, 148, 246, 0.4);
+    box-shadow: 0 20px 40px rgba(171, 148, 246, 0.2);
+}
+
+/* Alternate layout for even cards */
+.projectCard:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+/* Project Content */
+.projectContent {
+    flex: 1;
+    min-width: 0;
+}
+
+.projectTitle {
+    font-family: "Quicksand";
+    font-size: 38px;
+    margin: 0 0 20px 0;
+    color: #f2fbf8;
+    font-weight: 600;
+}
+
+.projectDescription {
+    font-family: "Quicksand";
+    font-size: 18px;
+    line-height: 1.8;
+    color: rgba(242, 251, 248, 0.9);
+    margin: 0 0 25px 0;
+}
+
+/* Tech Stack */
+.techStack {
+    margin: 25px 0;
+}
+
+.techLabel {
+    font-family: "Quicksand";
+    font-size: 16px;
+    color: #ab94f6;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.techTags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.techTag {
+    font-family: "Quicksand";
+    font-size: 14px;
+    padding: 8px 16px;
+    background: rgba(171, 148, 246, 0.2);
+    border: 1px solid rgba(171, 148, 246, 0.3);
+    border-radius: 20px;
+    color: #f2fbf8;
+    transition: all 0.3s ease;
+}
+
+.techTag:hover {
+    background: rgba(171, 148, 246, 0.3);
+    transform: translateY(-2px);
+}
+
+/* GitHub Link */
+.githubLink {
+    display: inline-block;
+    font-family: "Quicksand";
+    font-size: 16px;
+    color: #ab94f6;
+    text-decoration: none;
+    margin-top: 20px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.githubLink:hover {
+    color: #c8b5ff;
+    transform: translateX(5px);
+}
+
+/* Project Media */
+.projectMedia {
+    flex: 1;
+    min-width: 0;
+    max-width: 550px;
+    border-radius: 15px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.projectMedia video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Single Media Layout */
+.singleMedia {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* Multiple Media Layout */
+.multiMedia {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    width: 100%;
+}
+
+.videoWrapper {
+    position: relative;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.mediaPlayer {
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.mediaPlayer video {
+    border-radius: 10px;
+}
+
+.pdfViewer {
+    border-radius: 10px;
+    border: 1px solid rgba(171, 148, 246, 0.3);
+}
+
+/* PDF Preview Card */
+.pdfPreview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 30px;
+    background: rgba(171, 148, 246, 0.1);
+    border: 2px dashed rgba(171, 148, 246, 0.4);
+    border-radius: 15px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.pdfPreview:hover {
+    background: rgba(171, 148, 246, 0.15);
+    border-color: rgba(171, 148, 246, 0.6);
+}
+
+.pdfIcon {
+    color: #ab94f6;
+    margin-bottom: 20px;
+}
+
+.pdfPreview h3 {
+    font-family: "Quicksand";
+    font-size: 24px;
+    color: #f2fbf8;
+    margin: 0 0 10px 0;
+    font-weight: 600;
+}
+
+.pdfPreview p {
+    font-family: "Quicksand";
+    font-size: 16px;
+    color: rgba(242, 251, 248, 0.7);
+    margin: 0 0 25px 0;
+}
+
+.viewPdfButton {
+    display: inline-block;
+    font-family: "Quicksand";
+    font-size: 16px;
+    color: #ab94f6;
+    text-decoration: none;
+    padding: 12px 30px;
+    border: 2px solid #ab94f6;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.viewPdfButton:hover {
+    background: #ab94f6;
+    color: #1a1a2e;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(171, 148, 246, 0.4);
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .projectsContainer {
+        padding: 50px 30px;
+    }
+
+    .projectCard {
+        padding: 35px;
+        gap: 40px;
+    }
+
+    .projectTitle {
+        font-size: 32px;
+    }
+
+    .projectDescription {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 900px) {
+    .projectsTitle {
+        font-size: 44px;
+    }
+
+    .projectsSubtitle {
+        font-size: 18px;
+    }
+
+    .projectCard,
+    .projectCard:nth-child(even) {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .projectMedia {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .projectTitle {
+        font-size: 28px;
+    }
+
+    .projectDescription {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    .projectsContainer {
+        padding: 40px 20px;
+    }
+
+    .projectsHeader {
+        margin-bottom: 50px;
+    }
+
+    .projectsTitle {
+        font-size: 36px;
+    }
+
+    .projectsSubtitle {
+        font-size: 16px;
+    }
+
+    .projectsList {
+        gap: 50px;
+    }
+
+    .projectCard {
+        padding: 25px;
+    }
+
+    .projectTitle {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .projectDescription {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .techTags {
+        gap: 8px;
+    }
+
+    .techTag {
+        font-size: 13px;
+        padding: 6px 12px;
+    }
+
+    .multiMedia {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
 }

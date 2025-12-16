@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.aboutContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 40px;
+    color: #f2fbf8;
+}
+
+/* Header Section */
+.aboutHeader {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.aboutTitle {
+    font-family: "Quicksand";
+    font-size: 56px;
+    margin: 0 0 20px 0;
+    color: #f2fbf8;
+    font-weight: 700;
+}
+
+.aboutSubtitle {
+    font-family: "Quicksand";
+    font-size: 20px;
+    color: rgba(242, 251, 248, 0.8);
+    margin: 0;
+}
+
+/* Content Sections */
+.aboutContent {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.aboutSection {
+    padding: 0;
+}
+
+.sectionHeading {
+    font-family: "Quicksand";
+    font-size: 28px;
+    margin: 0 0 20px 0;
+    color: #f2fbf8;
+    font-weight: 600;
+}
+
+.aboutText {
+    font-family: "Quicksand";
+    font-size: 18px;
+    line-height: 1.8;
+    color: #f2fbf8;
+    margin: 0 0 30px 0;
+}
+
+/* Interests Grid */
+.interestsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.interestCard {
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.interestCard:hover {
+}
+
+.interestCard h3 {
+    font-family: "Quicksand";
+    font-size: 22px;
+    margin: 0 0 15px 0;
+    color: #f2fbf8;
+}
+
+.interestCard p {
+    font-family: "Quicksand";
+    font-size: 16px;
+    line-height: 1.6;
+    color: rgba(242, 251, 248, 0.8);
+    margin: 0;
+}
+
+/* Values Container */
+.valuesContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.valueItem {
+    text-align: center;
+    padding: 0;
+}
+
+.valueItem:hover {
+}
+
+.valueIcon {
+    font-size: 48px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.valueItem h3 {
+    font-family: "Quicksand";
+    font-size: 24px;
+    margin: 0 0 15px 0;
+    color: #ab94f6;
+    font-weight: 600;
+}
+
+.valueItem p {
+    font-family: "Quicksand";
+    font-size: 16px;
+    line-height: 1.6;
+    color: rgba(242, 251, 248, 0.8);
+    margin: 0;
+}
+
+/* Fun Facts Section */
+.funFactsSection {
+}
+
+.funFactsList {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.funFactsList li {
+    font-family: "Quicksand";
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.funFactsList li:hover {
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .aboutContainer {
+        padding: 50px 30px;
+    }
+
+    .aboutTitle {
+        font-size: 44px;
+    }
+
+    .sectionHeading {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 768px) {
+    .aboutContainer {
+        padding: 40px 20px;
+    }
+
+    .aboutHeader {
+        margin-bottom: 50px;
+    }
+
+    .aboutTitle {
+        font-size: 36px;
+    }
+
+    .aboutSubtitle {
+        font-size: 18px;
+    }
+
+    .aboutSection {
+        padding: 30px 25px;
+    }
+
+    .sectionHeading {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .aboutText {
+        font-size: 16px;
+    }
+
+    .interestsGrid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .valuesContainer {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .funFactsList {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .funFactsList li {
+        font-size: 16px;
+        padding: 15px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .aboutContainer {
+        padding: 30px 15px;
+    }
+
+    .aboutTitle {
+        font-size: 28px;
+    }
+
+    .aboutSection {
+        padding: 25px 20px;
+    }
+
+    .interestCard {
+        padding: 25px 20px;
+    }
+
+    .valueItem {
+        padding: 30px 20px;
+    }
+}

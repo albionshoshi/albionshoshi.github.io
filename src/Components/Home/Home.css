@@ -7,68 +7,215 @@ body, html {
     color: #f2fbf8;
 }
 
+.homeBod {
+    padding: 40px 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
 
-.description {
+/* Intro Section */
+.intro-section {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    max-width: 90%;
-    margin: 20px auto;
-    padding: 20px;
-    border-radius: 8px;
-}
-
-.home_about{
-    font-family: "Quicksand";
-    font-size: 50px;
-    margin-left: 50px;
-}
-
-.home_aboutMe{
-    font-family: "Quicksand";
-    font-size: 25px;
-    margin-bottom: 500px;
-}
-
-.home_about_blur{
-    border-radius: 20px;
-    margin-left: auto;
-    margin-right: 70px;
-    width: 600px;
-    padding: 2px 10px 2px 10px;
-}
-
-.linedUp{
-    display: flex;
-    flex-direction: row-reverse;
-}
-
-.about_school{
-    font-size: 35px;
-    margin-right: 100px;
-    margin-top: 20px;
-}
-
-@media (max-width: 768px) {
-    .description {
-        flex-direction: column;
-    }
-    .pfp {
-        margin-bottom: 20px;
-    }
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    margin-bottom: 80px;
+    padding: 40px 0;
 }
 
 .profile-container {
-    text-align: center;
-    margin-top: 20px;
-    margin-right: 650px;
-    border: 200px #ab94f6;
+    flex-shrink: 0;
 }
 
 .profile-picture {
     width: 300px;
-    height: auto;
-    margin-top: 150px;
-    margin-right: 200px;
-    border: 100px #ab94f6;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #ab94f6;
+    margin-left: 200px;
+}
+
+.intro-text {
+    flex: 1;
+    max-width: 700px;
+}
+
+.home_about {
+    font-family: "Quicksand";
+    font-size: 50px;
+    margin: 0 0 20px 0;
+    color: #f2fbf8;
+}
+
+.about_school {
+    font-family: "Quicksand";
+    font-size: 24px;
+    margin: 0 0 30px 0;
+    line-height: 1.5;
+    color: #f2fbf8;
+}
+
+.home_aboutMe {
+    font-family: "Quicksand";
+    font-size: 20px;
+    line-height: 1.8;
+    margin: 0;
+    color: #f2fbf8;
+}
+
+/* About Section */
+.skills-section {
+    margin-bottom: 80px;
+}
+
+.section-title {
+    font-family: "Quicksand";
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #f2fbf8;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba(171, 148, 246, 0.1);
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.skill-item:hover {
+    transform: translateY(-10px);
+    background: rgba(171, 148, 246, 0.2);
+}
+
+.skill-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.skill-item p {
+    font-family: "Quicksand";
+    font-size: 18px;
+    margin: 0;
+    color: #f2fbf8;
+}
+
+/* Courses Section */
+.courses-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.course-item {
+    font-family: "Quicksand";
+    font-size: 18px;
+    padding: 25px;
+    border-radius: 12px;
+    background: rgba(171, 148, 246, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, background 0.3s ease;
+    color: #f2fbf8;
+}
+
+.course-item:hover {
+    transform: translateY(-5px);
+    background: rgba(171, 148, 246, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .intro-section {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .intro-text {
+        max-width: 100%;
+    }
+
+    .home_about {
+        font-size: 40px;
+    }
+
+    .about_school {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .profile-picture {
+        width: 250px;
+        height: 250px;
+    }
+
+    .home_about {
+        font-size: 36px;
+    }
+
+    .about_school {
+        font-size: 18px;
+    }
+
+    .home_aboutMe {
+        font-size: 18px;
+    }
+
+    .section-title {
+        font-size: 30px;
+    }
+
+    .skills-grid {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        gap: 25px;
+    }
+
+    .skill-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .courses-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .homeBod {
+        padding: 20px 15px;
+    }
+
+    .profile-picture {
+        width: 200px;
+        height: 200px;
+    }
+
+    .home_about {
+        font-size: 28px;
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
 }
