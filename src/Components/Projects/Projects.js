@@ -103,16 +103,16 @@ function Projects() {
                                     <polyline points="10 9 9 9 8 9"></polyline>
                                 </svg>
                             </div>
-                            <h3>Research Poster</h3>
-                            <p>NFL Standings Prediction Analysis</p>
-                            <a href="/NFL_POSTER.pdf" target="_blank" rel="noopener noreferrer" className="viewPdfButton">
-                                View Full Report →
+                            <h3>Research Paper</h3>
+                            <p>Predicting on NBA players</p>
+                            <a href="/NBA_Predictions.pdf" target="_blank" rel="noopener noreferrer" className="viewPdfButton">
+                                View Paper
                             </a>
                         </div>
                     }
-                    header="Predicting NFL Standings"
-                    description="Engineered a multiple linear regression model to forecast NFL team winning percentages with high accuracy based off of previous NFL season statistics. The project was a group project featured with research partners Alex Bechakas and Gavin Crowley. The model analyzes various performance metrics and historical data to predict season outcomes. The motivation for this project lies in a shared passion for the NFL and in the curiosity to explore how key metrics such as point differentials, total yards, and defensive statistics contribute to a team’s performance over a season. We validated the model's effectiveness by comparing predictions against actual 2023 season results, demonstrating strong predictive capabilities."
-                    tech={["R", "Machine Learning", "Statistical Analysis"]}
+                    header="NBA Predictions Research Paper"
+                    description="The research paper was constructed to explore and recommend new machine learning approaches when it comes to evaluating young NBA talent. We want to find a better way of finding the potential of collegiate basketball and young NBA players and what kind of future they could have in the NBA. While the model is not a definitive solution, it generates an analytical baseline to judge players opposed to opinion. Our methodology started with defining star potential and created 5 different categories of clusters ranging from superstar to minimal impact bench player. We fit all current NBA players from the last 20 years into these clusters based on statistical metrics. We then used Supervised Learning Models in Logistic Regression, XGBoost, and Random Forest to predict on the young players and how likely they are to fit into a certain cluster. "
+                    tech={["Python", "Machine Learning", "Statistical Analysis"]}
                 />
                 <ProjectCard
                     media={
@@ -126,15 +126,16 @@ function Projects() {
                                     <polyline points="10 9 9 9 8 9"></polyline>
                                 </svg>
                             </div>
-                            <h3>Instruction Set</h3>
-                            <p>How to make Tirimisu</p>
-                            <a href="/Tiri_Instrcut_Set.pdf" target="_blank" rel="noopener noreferrer" className="viewPdfButton">
-                                View Full Report →
+                            <h3>Research Poster</h3>
+                            <p>NFL Standings Prediction Analysis</p>
+                            <a href="/NFL_POSTER.pdf" target="_blank" rel="noopener noreferrer" className="viewPdfButton">
+                                View Poster
                             </a>
                         </div>
                     }
-                    header="Tirimisu Intruction Set"
-                    description="Assembled an instruction set dedicated to help anyone be able to create a delicious Italian delicacy, tiramisu. The desert consists of freshly made espresso used to dip the ladyfinger cookies in and then layered with a mascarpone cheese filling. The instruction set is telling the audience exactly what basic operations to perform to be able to create the recipe. The document showcases sections in materials needed, ingredients, the recipe, and troubleshooting behind tiramisu. The instruction set is also dedicated to help anyone no matter the background in cooking or making deserts how to make a tiramisu recipe crafted and perfected by myself. As someone who started learning how to cook late, I think is is an essential skill to have and want to spread to all!"
+                    header="Predicting NFL Standings"
+                    description="Engineered a multiple linear regression model to forecast NFL team winning percentages with high accuracy based off of previous NFL season statistics. The project was a group project featured with research partners Alex Bechakas and Gavin Crowley. The model analyzes various performance metrics and historical data to predict season outcomes. The motivation for this project lies in a shared passion for the NFL and in the curiosity to explore how key metrics such as point differentials, total yards, and defensive statistics contribute to a team’s performance over a season. We validated the model's effectiveness by comparing predictions against actual 2023 season results, demonstrating strong predictive capabilities."
+                    tech={["R", "Machine Learning", "Statistical Analysis"]}
                 />
             </div>
         </div>
