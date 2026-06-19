@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom";
 import Nav from "../Nav/Nav.js";
+import Footer from "../Footer/Footer.js";
 import "./Layout.css"
 import SkyView from "../SkyView/SkyView.js";
 const Layout = () => {
@@ -7,7 +8,10 @@ const Layout = () => {
     <div className="background">
         <SkyView/>
         <Nav/>
-        <Outlet />
+        <main className="pageContent">
+            <Outlet />
+        </main>
+        <Footer/>
     </div>
     );
 };

@@ -11,7 +11,7 @@ function Home() {
                 <div className="intro-text">
                     <h1 className="home_about">Hi, I'm Albion.</h1>
                     <p className="about_school">
-                        A rising senior attending Penn State University majoring in Data Science in the College of Engineering
+                        A recent Data Science graduate from Penn State University's College of Engineering
                     </p>
                     <p className="home_aboutMe">
                         I'm an aspiring Developer interested in all ways creating. From making latte

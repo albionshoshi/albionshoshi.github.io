@@ -10,8 +10,8 @@ function About() {
 
             <div className="aboutContent">
                 <p className="aboutText">
-                    My name is Albion Shoshi and I'm from Pittsburgh, PA. I'm a senior at Penn State majoring in
-                    Data Science with a minor in Math.
+                    My name is Albion Shoshi and I'm from Pittsburgh, PA. I'm a recent Penn State graduate
+                    (Class of 2026) with a B.S. in Data Science and a minor in Math.
                 </p>
 
                 <p className="aboutText">
@@ -23,20 +23,23 @@ function About() {
                 </p>
 
                 <p className="aboutText">
-                    I have worked on numerous Data Science projects ranging from a face recognition app that delivers you
-                    a custom spotify playlist based off of the detected emotion displayed, to studying advanced analytics
-                    of NBA players and creating a ML pipeline to figure out potential future stars in the league.
-                    I have also done projects where I learned how to work with teams that delivered results by conducting
-                    thorough user research and launching new technical features after receiving user feedback. My experiences
-                    from developing real world AI applications and understanding the evolution of data sets will allow
-                    me to effectively advocate for user-centric product development and safety.
+                    I've worked on a wide range of Data Science and AI projects. I built a face-recognition app that reads
+                    your emotion and generates a custom Spotify playlist to match it, and a machine-learning pipeline that
+                    digs into advanced NBA analytics to identify the league's potential future stars. More recently I
+                    developed Warden, a budgeting app that uses Facebook Prophet to forecast a user's long-term finances
+                    and track investments, and I've trained reinforcement-learning agents including a chess bot capable
+                    of beating rated opponents on Chess.com. Across these projects I've worked with everything from XGBoost
+                    and SVMs to deep neural networks, while also learning to collaborate on teams that ship real features by
+                    grounding decisions in user research and feedback. Building real-world AI applications has shown me how
+                    deeply data shapes the products people rely on, and it drives me to advocate for thoughtful,
+                    user-centric, and safe product development.
 
                 </p>
 
                 <p className="aboutText">
-                    Outside of my work I enjoy doing things outdoors. I am always going on hikes and exploring nature
-                    ,especially in places I've never been before. I also always keep myself active and challenged myself
-                    this year to start training in Muay Thai.
+                    Outside of work, I love being outdoors. I'm always hiking and exploring nature, especially places
+                    I've never been before. I also stay active and constantly push myself physically, training in both
+                    Muay Thai and Brazilian Jiu-Jitsu.
 
                 </p>
             </div>

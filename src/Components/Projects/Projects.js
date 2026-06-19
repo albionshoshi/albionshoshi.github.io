@@ -1,6 +1,5 @@
 import React from 'react'
 import './Projects.css';
-import ReactPlayer from "react-player"
 
 const ProjectCard = ({description, header, media, tech, github}) => {
     return(
@@ -72,7 +71,7 @@ function Projects() {
                                 playsInline
                                 style={{width: '100%', height: 'auto', borderRadius: '10px'}}
                             >
-                                <source src="/ChessVid.mov" type="video/mp4" />
+                                <source src="/ChessVid.mp4" type="video/mp4" />
                                 Your browser does not support the video tag.
                             </video>
                         </div>
@@ -81,6 +80,30 @@ function Projects() {
                     description="Developed an intelligent chess AI bot utilizing transition functions and strategic algorithms capable of competing against 750+ rated players. In Reinforcement Learning, transition models describe the environment's dynamics and define the probability of transitioning to a new state from its current state. This model is crucial because it is used to predict future states and plan actions to maximize rewards. In the example video I show a 750 rated bot playing against my bot. Through rigorous testing across 10 practice matches, the agent demonstrated exceptional performance with 8 wins and 2 draws, showcasing robust decision-making and tactical planning capabilities.
 "
                     tech={["Python", "AI", "Game Theory"]}
+                />
+
+                <ProjectCard
+                    media={
+                        <div className="pdfPreview">
+                            <div className="pdfIcon">
+                                <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                    <polyline points="14 2 14 8 20 8"></polyline>
+                                    <line x1="16" y1="13" x2="8" y2="13"></line>
+                                    <line x1="16" y1="17" x2="8" y2="17"></line>
+                                    <polyline points="10 9 9 9 8 9"></polyline>
+                                </svg>
+                            </div>
+                            <h3>Capstone Paper</h3>
+                            <p>Earnings Call Risk &amp; Confidence Analyzer</p>
+                            <a href="/EarningsConfidenceAnalyzer.pdf" target="_blank" rel="noopener noreferrer" className="viewPdfButton">
+                                View Paper
+                            </a>
+                        </div>
+                    }
+                    header="Earnings Call Risk & Confidence Analyzer (ERCA)"
+                    description="My senior Data Science capstone, built with teammates Alejandro Herraiz Sen, Alex Bechakas, Syahmi Muslim, and Josh Carlson. ERCA is a pipeline that detects mispriced zero-days-to-expiration (0DTE) options by measuring the divergence between live retail social sentiment and market-implied volatility. We scored earnings-call and social transcripts with FinBERT, modeled social activity as a Hawkes self-exciting process, and dynamically selected the best-performing predictive model — Neural CDE, Multi-Transformer, Bi-Transformer, or SVR — based on the current market state. When the sentiment-versus-volatility divergence crosses a threshold, the model flags an imminent implied-volatility crush, signaling overpriced options and helping traders avoid the 'volatility trap.'"
+                    tech={["Python", "FinBERT / NLP", "Machine Learning", "Quantitative Finance"]}
                 />
 
                 {/* Do this later
